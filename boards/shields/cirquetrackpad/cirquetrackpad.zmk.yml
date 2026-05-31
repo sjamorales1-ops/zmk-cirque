@@ -1,0 +1,10 @@
+file_format: "1"
+id: cirquetrackpad
+name: Cirque Trackpad
+type: shield
+url: https://github.com/sjamorales1-ops/zmk-cirque
+requires:
+  - nice_nano_v2
+  - cirque pinnacle trackpad
+features:
+  - mouse
