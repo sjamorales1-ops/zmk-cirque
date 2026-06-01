@@ -17,7 +17,7 @@
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios
-            = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 
+            = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 
             ;
     };
 };
@@ -52,7 +52,7 @@
         compatible = "cirque,pinnacle";
         reg = <0x2A>;
         status = "okay";
-        dr-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
 
         //default driver options
         //sensitivity = "2x"; //1x, 2x, 3x, 4x
